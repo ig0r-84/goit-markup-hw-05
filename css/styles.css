@@ -598,7 +598,7 @@ img {
   margin-bottom: 16px;
 }
 .field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .field-wrapper-inner {
   position: relative;
@@ -694,6 +694,8 @@ img {
 }
 .privacy-link {
   text-decoration: underline;
+  color: #4d5ae5;
+  line-height: 1.33333;
 }
 .privacy-link:hover,
 .privacy-link:focus {
