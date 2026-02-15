@@ -639,7 +639,9 @@ img {
   transform: translateY(-50%);
   left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #2e2f42;
 }
+
 .form-icon:hover,
 .form-icon:focus {
   fill: #4d5ae5;
