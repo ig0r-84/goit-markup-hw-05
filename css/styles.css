@@ -576,15 +576,24 @@ img {
   line-height: 0;
   width: 24px;
   height: 24px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-style: solid;
 }
+.form-icon {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-close-btn:hover .form-icon,
+.modal-close-btn:focus .form-icon {
+  fill: #fff;
+}
 .modal-close-btn:hover,
 .modal-close-btn:focus {
-  fill: #fff;
   background-color: #404bbf;
 }
 
